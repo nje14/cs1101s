@@ -1,3 +1,9 @@
+//Editor's note:
+//ok so apparently how the filter works is that
+//dest frame is the frame to be displayed and src frame is the previous frame
+//i thought the src frame was the original frame and the dest frame was what it outputs after the filter is done
+//but to compare the frame all you need to do is compare src[r][c][0] and dest[r][c][0]
+
 // TASK 1
 //DISCLAIMER: i couldnt get the moving part to work
 //ive read the documentation and source code and dont really
