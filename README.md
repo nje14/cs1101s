@@ -10,4 +10,6 @@ DISCLAIMER:
 All programs are provided as written  
 I do not guarantee that code provided is "correct", though i will make an effort to annotate where necessary  
 I am not responsible for any issues arising from using the code as provided  
+For NUS students: usage of the code "as is" is subject to NUS SoC Plagarism policy and the NUS Code of Conduct regarding plagarism  
+Use at your own risk  
 Enquiries welcome (please be patient i am new to github)
