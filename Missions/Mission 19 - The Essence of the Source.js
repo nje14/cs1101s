@@ -77,6 +77,9 @@ const primitive_functions = list(
        );
 
 //Task 4
+//Notice: task has errors
+//there is no is_function defined, use the defined is_function type functions
+//eg iscompoundfunction(x), not exhaustive
 const primitive_functions = list(
        list("head",    head             ),
        list("tail",    tail             ),
@@ -99,7 +102,7 @@ const primitive_functions = list(
        //modification here
        //again the metacircular evaluator doesnt support
        //binary operators but i tested it in playground it should work
-       list(">",       (x, y) => is_number(x)&&is_number(y)?x >   y:is_function(x)&&is_list(y)?map(x,y):x>y,
+       list(">",       (x, y) => is_number(x)&&is_number(y)?x >   y:is_function(x)&&is_list(y)?map(x,y):x>y),
        list(">=",      (x, y) => x >=  y),
        list("!",        x     =>   !   x)
        );
